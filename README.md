@@ -3,7 +3,7 @@ Studiju kursa Datormācība (pamatkurss) elektroniskā klade
 
 Ctrl+Alt+T              -atver termināli  
 Ctrl+Shift+T            -atver terminālī jaunu cilni  
-Ctrl+L                  -notīra termināli  
+Ctrl+L                  -atbrīve redzmajā termināļa logā skatu...  
 ^v                      -ļauj aplūkot iepriekšējās komandas  
 Tab                     -atvieglo pilnā nosaukuma rakstīšanu
 man komandas_nosaukums  -atver manuālu par komandu  
@@ -28,3 +28,4 @@ history                 -termināļa vēsture
 exit                    -aizver/iziet no lietotnes (vai kā cita)  
 lietotnes_nosaukums     -atver lietotni ar šo nosaukumu  
 cat                     -lasa saturu  
+history > history_20190912.txt =saglabā terminājā vēsturi teksta failā ...
