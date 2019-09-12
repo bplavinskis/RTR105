@@ -19,7 +19,7 @@ ls -a                   -parāda visus objektus (arī tos, kas ir paslēpti ar "
 ls -al                  -apvieno divas iepriekšējās ..  
 cd                      -Change directory  
 cd .                    -solis šeit/ solis uz vietas  
-cd ..                   -iziet no esošās direktorijas (ja iespējams)  
+cd ..                   -iziet no esošās direktorijas (ja iespējams) (nevar iziet zem / )  
 cd ~                    -iet uz mājas apgabalu
 cd                      -mājas  
 rmdir direktorijas_nos. -remove directory  
