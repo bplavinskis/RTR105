@@ -29,3 +29,16 @@ exit                    -aizver/iziet no lietotnes (vai kā cita)
 lietotnes_nosaukums     -atver lietotni ar šo nosaukumu  
 cat                     -lasa saturu  
 history > history_20190912.txt =saglabā terminājā vēsturi teksta failā ...
+touch aaa.txt           = izveido teksta failu "aaa"
+nano aaa.txt            = teksta redaktros "nano" atver failu "aaa" tā rediģēšanai  
+Ctrl+K                  = kopē rindu nano lietotnē  
+Ctrl+U                  = ielīmē rindu ...  
+Ctrl+x                  = saglabāizmaiņas  
+cp aaa.txt bbb.txt      = kopē no "aaa" uz "bbb"  
+mv                      = pārceļ no.. uz..  
+mv *.txt                = pārceļ visus ".txt" failus  
+rm bbb.txt              = remove "bbb.txt"
+rm -fr ManaMape/        = forced remove "ManaMape/" (izdzēsīs direktoriju pat ja tā satur failus...)  
+chmod                   = rediģē lietotāju tiesības  
+ls /bin | grep ls       = atlasa to, kas satur -ls- iekš "/bin"  
+$PATH                   = sistēmas mainigais, 
