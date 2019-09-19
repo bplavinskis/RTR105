@@ -42,3 +42,8 @@ rm -fr ManaMape/        = forced remove "ManaMape/" (izdzēsīs direktoriju pat 
 chmod                   = rediģē lietotāju tiesības  
 ls /bin | grep ls       = atlasa to, kas satur -ls- iekš "/bin"  
 $PATH                   = sistēmas mainigais, 
+gcc fails.c		= kompilē C failu  
+gcc fails.c -o fails	= C faila kompilējumu nosauc par "fails"  
+/#include<biblioteka.h>	= C failā pievieno bibliotēju  
+main(){}		= programmas galvenā daļa  
+

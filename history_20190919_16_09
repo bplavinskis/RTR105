@@ -1,0 +1,71 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  firefox &
+    4  pwd
+    5  ls
+    6  git clone git clone https://github.com/bplavinskis/RTR105
+    7  git clone https://github.com/bplavinskis/RTR105
+    8  ls -l
+    9  cd RTR105
+   10  cat README.md
+   11  nano git-upload
+   12  ls -l
+   13  cat git-upload 
+   14  chmod700 git-upload 
+   15  ls -l
+   16  chmod 700 git-upload 
+   17  ls -l
+   18  ./git-upload
+   19  ./git-upload 20190919_15_00
+   20  cd ..
+   21  ls -l
+   22  rm -rf RTR105/
+   23  ls -l
+   24  git clone https://github.com/bplavinskis/RTR105
+   25  ls -l
+   26  cd RTR105/
+   27  nano elementary.c
+   28  mkdir darbi
+   29  mv elementary.c darbi/
+   30  cd darbi/
+   31  ls -l
+   32  cat elementary.c 
+   33  gcc elementary.c 
+   34  nano elementary.c 
+   35  gcc elementary.c 
+   36  ls -l
+   37  ./a.out 
+   38  gcc elementary.c -o prg1
+   39  ls -l
+   40  cat elementary.c 
+   41  nano elementary.c 
+   42  gcc elementary.c -o prg2
+   43  ls -l
+   44  nano elementary.c 
+   45  gcc elementary.c -o prg3
+   46  ls -l
+   47  cp elementary.c hello.c
+   48  ls -l
+   49  nano hello.c
+   50  gcc hello.c
+   51  nano hello.c
+   52  gcc hello.c -o hello
+   53  nano hello.c
+   54  gcc hello.c -o hello
+   55  nano hello.c
+   56  cat hello.c
+   57  gcc hello.c -o hello
+   58  ./hello 
+   59  nano hello.c
+   60  gcc hello.c -o hello
+   61  ./hello 
+   62  ls -l
+   63  rm prg*
+   64  ls -l
+   65  rm a.out 
+   66  rm hello
+   67  ls -l
+   68  cat elementary.c 
+   69  cd..
+   70  cd ..
+   71  history > history_20190919_16_09
