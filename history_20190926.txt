@@ -1,0 +1,70 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  ls -l
+    4  git clone https://github.com/bplavinskis/RTR105
+    5  ls -l
+    6  cd RTR105/
+    7  ls -l
+    8  cd darbi/
+    9  ls -l
+   10  cp hello.c 03.c
+   11  nano 03.c 
+   12  cp hello.c 02.c
+   13  ls -l
+   14  nano 02.c 
+   15  cat 02.c 
+   16  gcc 02.c 
+   17  nano 02.c 
+   18  gcc 02.c 
+   19  ls -l
+   20  ./a.out 
+   21  gcc 03.c 
+   22  ls -l
+   23  ./a.out 
+   24  nano 03.c 
+   25  gcc 03.c 
+   26  ./a.out 
+   27  ln -l
+   28  ls -l
+   29  rm a.out 
+   30  ls -l
+   31  nano 05.c
+   32  ls -l
+   33  nano 01.c
+   34  ls -l
+   35  cat 01.c 
+   36  gcc 01.c 
+   37  nano 01.c 
+   38  gcc 01.c 
+   39  ./a.out 
+   40  nano 01.c 
+   41  gcc 01.c 
+   42  ./a.out 
+   43  nano 04.c
+   44  gcc 04.c 
+   45  ./a.out 
+   46  ls -l
+   47  gcc 04.c 
+   48  nano 04.c
+   49  gcc 04.c 
+   50  nano 04.c
+   51  gcc 04.c 
+   52  ./a.out 
+   53  nano 04.c
+   54  gcc 04.c 
+   55  nano 04.c
+   56  gcc 04.c 
+   57  ./a.out 
+   58  nano P05_02.c
+   59  gcc P05_02.c 
+   60  nano P05_02.c
+   61  gcc P05_02.c 
+   62  nano P05_02.c
+   63  gcc P05_02.c 
+   64  nano P05_02.c
+   65  gcc P05_02.c 
+   66  ls -l
+   67  rm a.out 
+   68  cd ..
+   69  ls -l
+   70  history > history_20190926.txt

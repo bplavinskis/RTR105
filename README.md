@@ -46,4 +46,11 @@ gcc fails.c		= kompilē C failu
 gcc fails.c -o fails	= C faila kompilējumu nosauc par "fails"  
 /#include<biblioteka.h>	= C failā pievieno bibliotēju  
 main(){}		= programmas galvenā daļa  
-
+\\			= simb "\"  
+\n			= *kursors jaunā rindā*
+\r			= *kursors pārvietots uz rindas sākumu*  
+\a			= *pīkstiens*
+\'			= " ' "  
+\"			= " " "  
+\?			= "?"  
+  
