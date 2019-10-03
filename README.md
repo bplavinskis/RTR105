@@ -53,4 +53,5 @@ main(){}		= programmas galvenā daļa
 \'			= " ' "  
 \"			= " " "  
 \?			= "?"  
-  
+<<1			= pavirza bitus 1 vienību pa kreisi...  
+git clone https...	= lejupladē reposetariju
