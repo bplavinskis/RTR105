@@ -55,3 +55,10 @@ main(){}		= programmas galvenā daļa
 \?			= "?"  
 <<1			= pavirza bitus 1 vienību pa kreisi...  
 git clone https...	= lejupladē reposetariju
+
+
+
+Gnuplot:
+load "skripta_vards.gp"     = ielādē un attēlo to, kas ir skriptā
+plot [0:10] funkcija        = uztaisa funkcijas grfiku  
+replot [0:10] cita_funkcija = uztaisa citu funkcijas grafiku pa virsu esošajam  
