@@ -10,7 +10,7 @@ void main(){
  y = sin(x/2);
  printf("y=sin(%.2Lf/2)=%.2Lf\n",x,y);
 
- a = pow(-1,k)*pow(x,2*k+1)/(/*((2*k+1)!)*/*pow(2,2*k+1));
+ a = pow(-1,k)*pow(x,2*k+1)/(exp(2*k+1)*pow(2,2*k+1));
  s += a;
 
  while (k<500)
