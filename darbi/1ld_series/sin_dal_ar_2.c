@@ -39,5 +39,5 @@ void main(){
  printf("\n");
  printf("\tx\n");
  printf("R= --------\n");
- printf("\tk\n");
+ printf("\t2\n");
 }
