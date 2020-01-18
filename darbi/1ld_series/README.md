@@ -2,48 +2,54 @@
 
 ## Theory
       
-f(x)=sin(x/2)
+f(x)=sin(x/2) Izmantojot Teilora rundu, aizstājou funkciju ar pakāpes serijas summu.
 
 ### Code
 ```
 #include<stdio.h>
 #include<math.h>
+
 void main(){
- double x,y,a,S;
+ long double x,y,a,s;
  int k=0;
+
+ printf("Ievadiet x vērtību: ");
+ scanf("%Lf",&x);
  y = sin(x/2);
- printf("y=sin(%.2f/2)=%.2f\n",x,y);
+ printf("y=sin(%.2Lf/2)=%.2Lf\n",x,y);
 
- a = pow(-1,k)*pow(x,2*k+1)/(1.);
- S = a;
- printf("%.2f\t%8.2f\t%8.2f\n",x,a,S);
+ a = pow(-1,k)*pow(x,2*k+1)/(exp(2*k+1)*pow(2,2*k+1));
+ s += a;
 
- while(k<3){
+ while (k<500)
+ {
+  if (k == 0)
+   printf("a0 = %Le\tS0 =%.2Lf\n",a,s);
   k++;
-  a = a * (-1) *x*x / ((2*k)*(2*k+1));
-  S = S + a;
-  printf("%.2f\t%8.2f\t%8.2f\n",x,a,S);
-  }
-}
-=====================
-int main(){
-  double x,y,a,S;;
-  int k=0;
-  printf("Ievadiet x vērtību: ");
-  scanf("%d", &x);
-  
-  y=sin(x/2);
-  printf("y=sin(%.2f/2)=%.2f\n",x,y);
-  
-  a = pow(-1,k)*pow(x,2*k+1)/(/*((2*k+1)!)*/*pow(2,2*k+1));
-  S = a;
-  while(k<A){
-    if((k==(A-1))||(k==A))printf("%d. a = %e\n",k,a);
-    if(k==A)printf("f(x) rezultāts aprēķinot ar Teilora rindu:\nsin(%.2f/2)=%.2f\n",x,S)
-  }
+  a = a*x/(k);
+  s += a;
+  if (k == 499)
+   printf("a499 = %Le\tS499 =%.2Lf\n",a,s);
+ }
+ printf("a500 = %Le\tS500 =%.2Lf\n",a,s);
+
+ printf("\n");
+ printf("\t\t 500\n");
+ printf("\t\t----\n");
+ printf("\t\t\\\t\t    k    2k+1\n");
+ printf("\t\t \\\t\t(-1) * x\n");
+ printf("f(x)=\t\t  |\t  ----------------\n");
+ printf("\t\t /\t\t        2k+1\n");
+ printf("\t\t/\t\t  (2k+1)!*2\n");
+ printf("\t\t----\n");
+ printf("\t\tk=0\n");
+
+ printf("\n");
+ printf("\tx\n");
+ printf("R= --------\n");
+ printf("\tk\n");
 }
 ```
-Comments about code  
 
 ### Result
 ```
