@@ -20,17 +20,15 @@ int main(){
  
  while ((b-a)>delta_x){
   x = (a+b)/2.;
-  if(funkca*(sin(x/2)-c)>0)
-   a = x;
-  else
-   b = x;
+  if(funkca*(sin(x/2)-c)>0) a = x;
+  else b = x;
   printf("sin(%7.3f/2) - %7.3f =%7.3f\t",a,c,funkca);
   printf("sin(%7.3f/2) - %7.3f =%7.3f\t",x,c,funkcb);
   printf("sin(%7.3f/2) - %7.3f =%7.3f\n",b,c,sin(x/2)-c);
-   i++;
+   k++;
  }
 
  printf("\nIteraciju skaits: %d\n",k);
- printf("Sākne atrodas pie x=%.5f, jo sin(x/2) ir %.3f\n",x,sin(x/2);
+ printf("Sākne atrodas pie x=%.5f, jo sin(x/2) ir %.3f\n",x,sin(x/2));
  return 0;
 }

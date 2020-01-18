@@ -1,44 +1,4 @@
-# Laboratory work Nr.3. - derivative - report
-
-## Theory
-. . .   
-
-### Code
-```
-
-#include<stdio.h>
-#include<math.h>
-
-void main(){
- int k;
- float a=0.,b=0.,x,delta_x=1.e-1;
-  printf("Ievadiet sākuma robežu (a): ");
-  scanf ("%f", &a);
-  printf("Ievadiet beigas robežu (b): ");
-  scanf ("%f", &b);
-  printf("Ievadiet precizitāti: ");
-  scanf ("%f", &delta_x);
-
-  printf("\tx\t\tsin(x/2)\tsin\'(x/2)\tsin\'\'(x/2)\n");
-
-  x=a;
-  while(x<=b){
-  printf("%10.2f\t%13.2f\t%13.2f\t%13.2f\n",x,sin(x/2),cos(x/2)/2,(-2*sin(x/2))/4);
-  x+= delta_x;
-  k++;
-  }
-
-}
-
-```
-Comments about code  
-
-### Result
-```
-Ievadiet sākuma robežu (a): 0
-Ievadiet beigas robežu (b): 20
-Ievadiet precizitāti: 0.5
-	x		sin(x/2)	sin'(x/2)	sin''(x/2)
+Ievadiet sākuma robežu (a): Ievadiet beigas robežu (b): Ievadiet precizitāti: 	x		sin(x/2)	sin'(x/2)	sin''(x/2)
       0.00	         0.00	         0.50	        -0.00
       0.50	         0.25	         0.48	        -0.12
       1.00	         0.48	         0.44	        -0.24
@@ -80,10 +40,3 @@ Ievadiet precizitāti: 0.5
      19.00	        -0.08	        -0.50	         0.04
      19.50	        -0.32	        -0.47	         0.16
      20.00	        -0.54	        -0.42	         0.27
-
-```
-
-### Analysis
-ķipa strādā  
-
-### Figures

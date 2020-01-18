@@ -2,7 +2,7 @@
 
 ## Theory
       
-f(x)=sin(x/2) Izmantojot Teilora rundu, aizstājou funkciju ar pakāpes serijas summu.
+f(x)=sin(x/2) 
 
 ### Code
 ```
@@ -53,10 +53,29 @@ void main(){
 
 ### Result
 ```
-<<vieta rezultātam>>
+Ievadiet x vērtību: 2       
+y=sin(2.00/2)=0.84
+a0 = 3.678794e-01	S0 =0.37
+a499 = 2.467373e-982	S499 =2.72
+a500 = 9.869492e-985	S500 =2.72
+
+		 500
+		----
+		\		    k   2k+1
+		 \		(-1) * x
+f(x)=		  |	  ------------------------
+		 /		            2k+1
+		/		  (2k+1)!* 2
+		----
+		k=0
+
+	x
+R  =  ------
+	2
+
 ```
 
 ### Analysis
-Comments about results  
+rezultāts ir kļūdains  
 
 ### Figures
