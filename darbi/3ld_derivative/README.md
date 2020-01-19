@@ -84,6 +84,5 @@ Ievadiet precizitāti: 0.5
 ```
 
 ### Analysis
-ķipa strādā  
+pa pusei izdarīt, pa pusei strādā... 
 
-### Figures
