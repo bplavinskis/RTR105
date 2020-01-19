@@ -79,6 +79,4 @@ Sākne atrodas pie x=13.90386, jo sin(x/2) ir 0.620
 ```
 
 ### Analysis
-Laikam strādā...  
-
-### Figures
+Ķip' strādā (bet, manuprāt, kļūdaini)...
