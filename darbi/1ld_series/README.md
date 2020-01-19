@@ -2,7 +2,7 @@
 
 ## Theory
       
-f(x)=sin(x/2) 
+Pēc idejas: strādāt  ar Teilora rindām ir vieglāk/ērtāk...
 
 ### Code
 ```
@@ -76,6 +76,7 @@ R  =  ------
 ```
 
 ### Analysis
-rezultāts ir kļūdains  
+pēc salīdzinājuma, rezultāts ir kļūdains (un rekurences formula ,kas rādīta šeit, neatbilst patiesajai.) 
 
 ### Figures
+![sin(x/2)](https://github.com/bplavinskis/RTR105/blob/master/darbi/1ld_series/gnuplot.png)
