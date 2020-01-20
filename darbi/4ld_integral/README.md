@@ -1,22 +1,37 @@
 # Laboratory work Nr.1. - Taylor series - report
 
 ## Theory
-Theory  
+integrēšana ir pretēja atvasināšanai.
 
 ### Code
 ```
 #include<stdio.h>
 
-void main(){printf("Hello, World!\n");}
+void main(){
+ print("  _   _       __      __\n");
+ print(" | \\ | |    /\\\\ \\    / /\n");
+ print(" |  \\| |   /  \\\\ \\  / / \n");
+ print(" | . ` |  / /\\ \\\\ \\/ /  \n");
+ print(" | |\\  | / ____ \\\\  /   \n");
+ print(" |_| \\_|/_/    \\_\\\\/    \n")
+ print("                        \n");
+}
 ```
 Comments about code  
 
 ### Result
 ```
-Hello, World!
+  _   _       __      __
+ | \ | |    /\\ \    / /
+ |  \| |   /  \\ \  / / 
+ | . ` |  / /\ \\ \/ /  
+ | |\  | / ____ \\  /   
+ |_| \_|/_/    \_\\/    
+                        
 ```
 
 ### Analysis
-Comments about results  
+nav 
 
 ### Figures
+nav
