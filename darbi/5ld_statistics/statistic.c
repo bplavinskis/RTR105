@@ -24,6 +24,6 @@ void main(){
  printf("\nIevadītajā rindas garums ir %d simboli.\n",i);
  printf("Mazākā vērtība ir %d. simbolam \"%c\", kura ASCII vētība ir %d\n",min[1]+1,min[0],min[0]);
  printf("Lielākā vērtība ir %d. simbolam \"%c\", kura ASCII vērtība ir %d\n",max[1]+1,max[0],max[0]);
- printf("Šo simbolu vidējā ASCII vērtība ir %d, kurai atbilst simbols \"%c\"\n",sum/i,sum/i);
+ printf("Vidējā ASCII vērtība ir %d, kurai atbilst simbols \"%c\"\n",sum/i,sum/i);
  
 }
